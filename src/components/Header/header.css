@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px;
+  cursor:default;
+}
+
+.header-logo{
+  width: 255px;
+  font-weight: 800;
+  font-size: 32px;
+  
+}
+.header-button {
+  width: 203px;
+  height: 64px;
+  padding: 24px,42px,24px,42px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 87px;
+  cursor: pointer;
+  border: 1px solid black;
+ 
+  gap:16px;
+
+}

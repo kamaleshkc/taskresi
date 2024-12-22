@@ -1,0 +1,68 @@
+.col-trending-now {
+  display: flex;
+  height: 518px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  background-color: white;
+  margin: 80px;
+  }
+
+  .col-trending-content {
+    max-width: 50%;
+  }
+  .col-trending-content h1{
+   
+    color: #617587;
+    font-weight:400px;
+    font-size:24px;
+    line-height: 29.05px;
+  }
+  .col-artist-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .col-trending-content h2{
+    font-weight:800px;
+    font-size: 64px;
+    line-height: 77.45px;
+
+  }
+  .col-trending-badge {
+    display: inline-block;
+    background-color: #FADFE4;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    border-radius: 49px;
+    gap:10px;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .col-trending-artist {
+    margin: 1rem 0;
+  }
+  
+  .col-trending-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  col.trending-image {
+    max-width: 417px;
+    min-width: none;
+    height: 411pxß;
+  }
+  .col-content-text{
+    width: 136px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    line-height: 29.05px;
+    margin: 80px;
+    font-weight: 800;
+  }
+  

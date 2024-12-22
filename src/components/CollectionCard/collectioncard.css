@@ -1,0 +1,127 @@
+.card {
+    width: 424px;
+    height: 529px;
+    border-radius: 47px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  .hover-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 248px;
+    height: 67px;
+    transform: translate(-50%, -50%);
+    background-color:#fff; /* Semi-transparent background */
+    color: black;
+    border: none;
+    padding:24px;
+    border-radius: 87px;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 19.36px;
+    
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 47px;
+  }
+  .card-image{
+    margin: 16px;
+    position: relative;
+    display: inline-block;
+  }
+  .card-content {
+    padding: 16px;
+  }
+  .card-content-head{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-content h2 {
+    font-weight: 700px;
+    line-height: 29.05px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    margin:0px 29px;
+  }
+  
+  .price-range {
+    color: #617587;
+    font-size: 14px;
+    margin: 29px 8px 8px 29px;
+    font-weight: 400;
+    line-height: 16.94px;
+  }
+  
+  .description {
+    color: #23252B;
+    font-size: 16px;
+    line-height: 24px;
+    margin:0 29px;
+
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 33px 0px 31px 0px;
+    background-color: white;
+    border: none;
+   
+  }
+  
+  .artist-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .artist-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 17px;
+   
+  }
+  
+  .ntf-count {
+
+    background-color: #E1EDD9;
+    color: #23252B;
+    border-radius: 49px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    width:  (118px)px;
+    height:  (33px)px;
+    /* top: 283px;
+    left: 280px; */
+    padding: 9px 35px 9px 35px;
+    gap: 10px;
+    opacity: 0px;
+    
+
+
+  }
+  .artist-name span{
+    color: #617587;
+    line-height: 14.52px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .artist-name h1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }

@@ -1,0 +1,96 @@
+.trending-now {
+    display: flex;
+    height: 518px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 30px;
+    background-color: #E6E9F2;
+    margin: 80px;
+  }
+  .trending-now-background{
+    display: flex;
+    height: 518px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 30px;
+    background-color: #E6E9F2;
+    margin: 80px;
+  }
+  .trending-now-nobackground{
+    display: flex;
+    height: 518px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 30px;
+    background-color: white;
+    margin: 80px;
+  }
+
+
+
+  .trending-content {
+    max-width: 50%;
+  }
+  .trending-content h1{
+   
+    color: #617587;
+    font-weight:400px;
+    font-size:24px;
+    line-height: 29.05px;
+  }
+  .trending-content h2{
+    font-weight:800px;
+    font-size: 64px;
+    line-height: 77.45px;
+
+  }
+  .trending-badge {
+    display: inline-block;
+    background-color: #FADFE4;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    border-radius: 49px;
+    gap:10px;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .trending-artist {
+    margin: 1rem 0;
+  }
+  
+  .trending-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .primary-button,
+  .secondary-button {
+    width: 248px;
+    height: 67px;
+    padding: 0.5rem 1rem;
+    border-radius: 87px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .primary-button {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .secondary-button {
+    background-color: transparent;
+    border: 1px solid #000;
+  }
+  
+  .trending-image {
+    max-width: 417px;
+    min-width: none;
+    height: 411pxß;
+  }
+  

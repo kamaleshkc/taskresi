@@ -1,0 +1,17 @@
+.content-text{
+    width: 136px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    line-height: 29.05px;
+    margin: 80px;
+}
+.card-container{
+    display: flex;
+    gap: 5px;
+    margin: 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}

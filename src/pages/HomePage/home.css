@@ -1,0 +1,25 @@
+.content-text{
+    width: 136px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    line-height: 29.05px;
+    margin: 80px;
+    font-weight: 800;
+  }
+  .slider{
+    
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
+  }
+  .mini-container{
+    margin:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+   
+  }

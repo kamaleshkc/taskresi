@@ -1,0 +1,129 @@
+.sm-card {
+    width: 424px;
+    height: 498px;
+    border-radius: 47px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+  }
+  .sm-hover-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 248px;
+    height: 67px;
+    transform: translate(-50%, -50%);
+    background-color:#fff; /* Semi-transparent background */
+    color: black;
+    border: none;
+    padding:24px;
+    border-radius: 87px;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 19.36px;
+    
+  }
+  
+  .sm-card-image img {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .sm-card-image{
+    margin: 16px;
+    position: relative;
+    display: flex;
+    height: 100%;
+    
+  }
+
+  .sm-card-content {
+   margin: 16px;
+
+  }
+  .sm-card-content-head{
+    display: flex;
+
+  }
+  
+  .sm-card-content h2 {
+    font-weight: 700px;
+    line-height: 29.05px;
+    font-size: 24px;
+    font-weight: 600;
+    margin:0px 29px;
+  }
+  
+  .sm-price-range {
+    color: #617587;
+    font-size: 14px;
+    margin: 29px 8px 8px 29px;
+    font-weight: 400;
+    line-height: 16.94px;
+  }
+  
+  .sm-description {
+    color: #23252B;
+    font-size: 16px;
+    line-height: 24px;
+    margin:0 29px;
+
+  }
+  
+  .sm-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 33px 0px 31px 0px;
+    background-color: white;
+    border: none;
+   
+  }
+  
+  .sm-artist-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sm-artist-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 17px;
+   
+  }
+  
+  .sm-ntf-count {
+    background-color: #D4D3EB;
+    color: #23252B;
+    border-radius: 49px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    width:  (118px)px;
+    height:  (33px)px;
+    padding: 9px 35px 9px 35px;
+    gap: 10px;
+    opacity: 0px;
+    
+
+
+  }
+  .sm-artist-name span{
+    color: #617587;
+    line-height: 14.52px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .sm-artist-name h1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
