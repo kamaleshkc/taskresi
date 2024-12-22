@@ -26,10 +26,6 @@ const Card:React.FC<Cardprops> = ({title,price}) => {
      alert("request unsucessfull.")
     }
   }
-
-
-
-
   return (
     <div className="sm-card" >
     <div className="sm-card-image"

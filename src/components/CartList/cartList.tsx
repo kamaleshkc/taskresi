@@ -6,6 +6,10 @@ import { RootState } from '../../app/store';
 const CartList: React.FC = () => {
   const cartItems = useSelector((state: RootState) => state.cart.items);
 
+  console.log(cartItems)
+
+  
+
   return (
     <div>
       <h2>Cart</h2>

@@ -13,7 +13,7 @@ type NavProps={
 const NavBar:React.FC <NavProps>= ({status}) => {
  
 const navigate = useNavigate();
-const handleAccountClick = () => alert(" Your balance and Cart here");
+const handleAccountClick = () => navigate('/cart');
 const handleWalletClick = () => navigate("/wallet");
 
 

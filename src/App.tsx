@@ -7,6 +7,7 @@ import { useState } from 'react';
 import PostList from './components/PostList';
 import { useSelector } from 'react-redux';
 import { RootState } from './app/store';
+import CartList from './components/CartList/cartList';
 
 function App() {
   const isLoggedIn = useSelector((state: RootState) => state.auth.isLoggedIn);
@@ -17,8 +18,9 @@ function App() {
   return (
   <Router>
     <Routes>
+        <Route path='cart' element={<CartList/>}/>
         <Route path="/" element={<LandingPage/>} />
-        <Route path='/post' element={<PostList/>}/>
+        <Route path='/posts' element={<PostList/>}/>
         <Route path="/main" element={<CollectionPage />} />
         <Route path="/wallet" element={< ConnectWallet onLogin={()=>setIsUserLoggedIn(true)}/>} />
         <Route
@@ -29,6 +31,7 @@ function App() {
             </ProtectedRoute>
           }
         />
+
       </Routes>
   </Router>
     

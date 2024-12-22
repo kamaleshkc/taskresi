@@ -17,6 +17,7 @@ default page to open is landing page where you can view collection of ntf cards.
 This app uses redux for state management. all the slicers are in to the feature directory. 
 /login
 for managing acces for pages 
+you can see your cart when you buy an nft from collection and click on account it will open a new container. 
 
 
 For the second task of project. thre is a hidden url "/posts" which you have to enter manually to get in to the page. 
@@ -44,3 +45,4 @@ you can view your shopping cart and nts purchased as well in a seperate componen
 
 
 
+# taskresi
